@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-size: 2vw;
+}
+
+p {
+    font-size: 0.5ems;
+}
+
+#logo {
+    margin: 0px;
+    padding: 10px;
+    font-family: "Mingzat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body > header {
+    background-color: hotpink ;
+    color: white;
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+}
+
+body > header > nav >ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto;
+}
+
+img {
+    border-radius: 100%;
+}
